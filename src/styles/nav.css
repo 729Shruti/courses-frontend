@@ -1,0 +1,30 @@
+.header-nav {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  background-color: #ffffff;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+.nav-link {
+  display: inline-block;
+}
+
+.nav-btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 10px;
+  background-color: #6366f1;
+  color: #ffffff;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.nav-btn:hover {
+  background-color: #4f46e5;
+}
+
+.nav-btn.active {
+  background-color: #4f46e5;
+}

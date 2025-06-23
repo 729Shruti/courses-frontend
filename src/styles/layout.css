@@ -1,0 +1,27 @@
+:root {
+  --primary-color: #3b82f6;
+  --primary-dark: #2563eb;
+  --text-light: #ffffff;
+  --bg-light: #f8fafc;
+  --text-dark: #1e293b;
+}
+
+body, html, #root {
+  height: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+}
+
+.main-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+  padding: 24px;
+  background-color: white;
+}
